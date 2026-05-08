@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 28 18:01:03 2026
+
+@author: Rodri
+"""
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arquivisionpy"
+version = "0.1"
+description = "Librería para detección de líneas, esquinas e intersecciones"
+authors = [{name = "Tu nombre"}]
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "matplotlib",
+    "scipy"
+]
