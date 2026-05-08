@@ -28,7 +28,7 @@ print("detección de líneas, detección de esquinas e intersecciones.\n")
 
 
 # Rutas
-ruta_img = os.path.join(ruta_proyecto, "examples", "plano_prueba.png")
+ruta_img = "Ruta de acceso"
 ruta_salida = os.path.join(ruta_proyecto, "results", "output.jpg")
 
 
